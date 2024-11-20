@@ -36,7 +36,6 @@ function App() {
       const { country, localtime, name, tz_id } = location;
       const { forecastday } = forecast;
       const { hour } = forecastday[0];
-      console.log(text);
       if (
         text?.toLowerCase() === "mist" ||
         text?.toLowerCase() === "light snow" ||
