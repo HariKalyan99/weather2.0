@@ -7,7 +7,7 @@ const ForecastCard = ({forecast}) => {
     <div  className="forecast">
             <img src={icon} alt="forecast-icon" className='forecast-icon'/>
             <span>{text}</span>
-            <span>@{new Date(time).toLocaleTimeString().split(":00")}</span>
+            <span>{new Date(time).toLocaleTimeString().split(":00")}</span>
         </div>
   )
 }

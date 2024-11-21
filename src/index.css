@@ -4,14 +4,22 @@
   box-sizing: border-box;
 }
 
+
 .container {
+  /* background-image: url("https://wallpapercave.com/wp/wp7863075.jpg"); */
+  /* background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover; */
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 3rem;
+  
 }
+
+
 
 #myVideo {
   position: fixed;
@@ -48,10 +56,9 @@
 
 .weather-forecast-main {
   display: flex;
-  background: rgb(0, 0, 0, 0.7);
-  border-radius: 0.5rem;
+  background: rgb(0, 0, 0, 0.8);
+  border-radius: 0.2rem;
   height: 60%;
-  -webkit-box-align: center;
   align-items: center;
   padding: 1rem;
   box-shadow: 1px 5px 20px white;
@@ -74,13 +81,14 @@
 
 .forecast {
   height: 90%;
-  min-width: 20%;
+  min-width: 15%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
   box-shadow: 10px 10px 20px rgb(0, 0, 0);
   border-radius: 1rem;
+  background-color: black;
 }
 
 .forecast > span{
