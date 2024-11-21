@@ -66,7 +66,7 @@ function App() {
       ) {
         setImage("https://images.pexels.com/photos/1367192/pexels-photo-1367192.jpeg?cs=srgb&dl=pexels-eberhardgross-1367192.jpg&fm=jpg");
       }else if(text.toLowerCase() === "heavy snow" ||
-      text.toLowerCase() === "snowy"){
+      text.toLowerCase() === "snowy" || text.toLowerCase() === "Light snow showers"){
         setImage("https://wallpapercave.com/wp/wp7863075.jpg");
       }
        else {
